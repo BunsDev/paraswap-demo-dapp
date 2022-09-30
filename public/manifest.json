@@ -1,0 +1,16 @@
+{
+  "name": "Paraswap Demo",
+  "short_name": "Paraswap",
+  "lang": "en",
+  "description": "Demo for Paraswap",
+  "background_color": "#0D0415",
+  "theme_color": "#EE82EE",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "splash_pages": null,
+  "prefer_related_applications": false  
+  ]
+}
