@@ -1,13 +1,14 @@
 {
   "name": "paraswap-demo",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development nodemon --watch src/server ./src/server",
     "build": "NODE_ENV=production webpack -p --config ./webpack/webpack.production.config.js",
     "start": "NODE_ENV=production && ts-node ./src/server.ts"
   },
   "engines": {
-    "node": ">=11.15.0"
+    "node": "16.16.0"
   },
   "dependencies": {
     "@ethersproject/providers": "^5.0.0-beta.146",
